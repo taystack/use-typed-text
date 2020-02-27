@@ -1,0 +1,8 @@
+{
+  "short_name": "@taystack/use-typed-text",
+  "name": "@taystack/use-typed-text",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
