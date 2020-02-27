@@ -2,7 +2,9 @@
 
 > React 16.8 hook to make it look like someone is typing
 
-![UseTypedText](https://github.com/taystack/use-typed-text/blob/master/logo.png?raw=true)[![NPM](https://img.shields.io/npm/v/@taystack/use-typed-text.svg)](https://www.npmjs.com/package/@taystack/use-typed-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![UseTypedText](https://github.com/taystack/use-typed-text/blob/master/logo.png?raw=true) [![NPM](https://img.shields.io/npm/v/@taystack/use-typed-text.svg)](https://www.npmjs.com/package/@taystack/use-typed-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![codecov](https://codecov.io/gh/taystack/use-leet/branch/master/graph/badge.svg)](https://codecov.io/gh/taystack/use-leet)
+
+## [Live Demo](https://taystack.github.io/use-typed-text)
 
 ## Install
 
