@@ -1,6 +1,6 @@
 {
   "name": "@taystack/use-typed-text",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "React 16.8 hook to make it look like someone is typing",
   "author": "taystack",
   "license": "MIT",
@@ -19,7 +19,8 @@
     "start": "rollup -c -w",
     "prepare": "yarn run build",
     "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "coverage": "codecov --token=\"$CODECOV_TOKEN_USE_TYPED_TEXT\""
   },
   "peerDependencies": {
     "react": "^16.9.0"

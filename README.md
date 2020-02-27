@@ -2,7 +2,7 @@
 
 > React 16.8 hook to make it look like someone is typing
 
-[![NPM](https://img.shields.io/npm/v/@taystack/use-typed-text.svg)](https://www.npmjs.com/package/@taystack/use-typed-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![UseTypedText](https://github.com/taystack/use-typed-text/blob/master/logo.png?raw=true)[![NPM](https://img.shields.io/npm/v/@taystack/use-typed-text.svg)](https://www.npmjs.com/package/@taystack/use-typed-text) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -13,15 +13,18 @@ npm install --save @taystack/use-typed-text
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from "react"
 
-import { useMyHook } from '@taystack/use-typed-text'
+import { useTypedText } from "@taystack/use-typed-text"
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>{example}</div>
-  )
+  const [text, setText] = useTypedText();
+
+  useEffect(() => {
+    setText("hello world");
+  }, []);
+
+  return (<div>{text}</div>);
 }
 ```
 
